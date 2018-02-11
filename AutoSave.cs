@@ -18,10 +18,10 @@ namespace AutoSave
     {
         public override string Name { get { return "AutoSave"; } }
         public override string Author { get { return "Salva/juli"; } }
-        public override string Description { get { return "AutoSave"; } }
+        public override string Description { get { return "AutoSave "; } }
         public override Version Version { get { return new Version("1.3"); } }
-        public static string version { get { return "1.3"; } }
-        
+        public static string Description2 = "[AutoSave v.1.3] ";
+
         private string red = "[color #FF0000]";
         private string blue = "[color #81F7F3]";
         private string green = "[color #82FA58]";
@@ -54,7 +54,8 @@ namespace AutoSave
         }
         public void OnServerInit()
         {
-            ConsoleSystem.Run("save.autosavetime 999999999", false); //disable Native Server Save
+            //ConsoleSystem.Run("save.autosavetime 999999999", false); //disable Native Server Save
+            ConsoleSystem.Run("save.autosavetime " + int.MaxValue, false);//dretax way
         }
         public void OnConsoleReceived(ref ConsoleSystem.Arg arg, bool external)
         {
@@ -92,9 +93,9 @@ namespace AutoSave
             var EndTime = DateTime.Now;
             TimeSpan DifTime = EndTime.Subtract(StartTime);
 
-            Logger.Log("[AutoSave v." + version + "] " + count + " Object(s). Took " + DifTime.Seconds.ToString() + " seconds save them in the Background " + "(total ms." + DifTime.Milliseconds.ToString() + ")");
-            ConsoleSystem.Print("[AutoSave v." + version + "] " + count + " Object(s). Took " + DifTime.Seconds.ToString() + " seconds save them in the Background " + "(total ms." + DifTime.Milliseconds.ToString() + ")");
-            Server.GetServer().BroadcastFrom("[AutoSave v." + version + "] ", count + " Object(s). Took " + DifTime.Seconds.ToString() + " seconds save them in the Background");
+            Logger.Log(Description2 + count + " Object(s). Took " + DifTime.Seconds + "." + DifTime.Milliseconds + " seconds save them in the Background");
+            ConsoleSystem.Print(Description2 + count + " Object(s). Took " + DifTime.Seconds + "." + DifTime.Milliseconds + " seconds save them in the Background");
+            Server.GetServer().BroadcastFrom(Description2, count + " Object(s). Took " + DifTime.Seconds + "." + DifTime.Milliseconds + " seconds save them in the Background");
 
             saveA.CancelAsync();
         }     

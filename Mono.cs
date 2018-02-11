@@ -17,12 +17,12 @@ namespace AutoSave
         
         IEnumerator WaitForServerStart()
         {
-            yield return new WaitForSeconds(90);//Wait a while to make sure the server is started (Not necessary)
+            yield return new WaitForSeconds(180);//Wait a while to make sure the server is started (Not necessary)
             StartCoroutine(Loop());
         }
         IEnumerator Loop()
         {
-            yield return new WaitForSeconds(60); //seconds traversed between each saved
+            yield return new WaitForSeconds(30); //seconds traversed between each saved
 
             AutoSave.ContarObjectos();//count objects in main Thread
             yield return new WaitForSeconds(10);//Make a wait to make sure that the object count does not match the saved as they are in the same Thread
