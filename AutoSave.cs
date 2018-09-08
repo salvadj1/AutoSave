@@ -178,7 +178,14 @@ namespace AutoSave
         {
             Loom.QueueOnMainThread(() =>
             {
-                AvatarSaveProc.SaveAll(); //???????
+                try
+                {
+                    AvatarSaveProc.SaveAll(); //???????
+                }
+                catch (Exception ex)
+                {
+                }
+                
                 WorldSave fsave;
                 using (Recycler<WorldSave, WorldSave.Builder> recycler = WorldSave.Recycler())
                 {

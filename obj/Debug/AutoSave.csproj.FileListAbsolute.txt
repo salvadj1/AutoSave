@@ -31,3 +31,16 @@ C:\Users\Salva\Desktop\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave201
 C:\Users\Salva\Desktop\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\obj\Debug\AutoSave.csprojResolveAssemblyReference.cache
 C:\Users\Salva\Desktop\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\obj\Debug\AutoSave.dll
 C:\Users\Salva\Desktop\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\obj\Debug\AutoSave.pdb
+C:\Users\Salva\Desktop\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\Google.ProtocolBuffers.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\AutoSave.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\AutoSave.pdb
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\Assembly-CSharp.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\Facepunch.ID.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\Fougerite.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\Google.ProtocolBuffers.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\UnityEngine.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\uLink.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\bin\Debug\RustPP.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\obj\Debug\AutoSave.csprojResolveAssemblyReference.cache
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\obj\Debug\AutoSave.dll
+D:\PROYECTOS PLUGINS\C# Plugins Servidor\PLUGINS\AutoSave2018\AutoSave\AutoSave\obj\Debug\AutoSave.pdb
